@@ -1,17 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <flow /> -->
+  <project />
+  <!-- <project0 /> -->
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
+// import flow from './components/flow.vue'
+import project from './components/project.vue'
+// import project0 from './components/project0.vue'
+export default{
   name: 'App',
-  components: {
-    HelloWorld
+  components:{ 
+    // flow,
+    project,
+  //  project0
   }
 }
+
 </script>
 
 <style>
@@ -19,7 +23,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
   margin-top: 60px;
 }
